@@ -1,0 +1,68 @@
+/* CSS Document */
+body
+{
+	background-color: black;
+}
+
+main
+{
+	float: left;
+	height: auto;
+	width: 80%;
+	padding: 20px;
+	
+}
+
+.it_icerik
+{
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+	margin-top: 30px;
+	
+}
+
+.it_resim
+{
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+h5
+{
+	margin: 10px;
+	color: dimgray;
+}
+
+.it_icerik_text
+{
+	margin: 10px;
+	color: dimgray;
+}
+
+.buton:link{
+
+	display: block;
+	text-decoration: none;
+}
+
+.footer_menu
+{
+	color: white;
+}
+
+.footer_icon
+{
+	color: white;
+}
+
+.footer_iletisim_icon
+{
+	color: white;
+}

@@ -1,0 +1,428 @@
+/* CSS Document */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B3B3B3;
+    font-family: '0xygen' , sans-serif;
+}
+
+#social{
+    background-color:#f05c2c;
+    top: 0;
+    z-index: 1;
+    padding: 5px;
+	
+}
+font{
+    float: left;
+    letter-spacing:2px;
+}
+
+#sekme
+{
+	
+	background-color:#D13B0B;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+    padding: 5px;
+	
+}
+.cizgi
+{
+	text-decoration:none;
+	color: #000000;
+	margin-right: -2%;
+	margin-left: 7%;
+	font-size: 18px;
+}
+
+
+
+
+.baslik
+{
+	text-decoration:none;
+	color: #000000;
+	font-size: 28px;
+}
+
+
+.icon
+{
+	text-decoration:none;
+	right: 5px;
+	color: white;
+	float: right;
+	float: bottom;
+	margin-right: 3%;
+	margin-top: 5%;
+	width: auto;
+    height:35px;
+    border: 2px solid #FCFCFC;
+	padding: 0.5%;
+    
+}
+
+#container
+{
+	width: 90%;
+	margin: auto;
+	height: auto;
+
+}
+
+section
+{
+	width: 100%;
+	height: auto;
+	background-color: #f1f1f1;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+nav
+{
+	width: 20%;
+	float: left;
+	margin-top: 10px;
+	height: auto;
+}
+
+ul li a:hover{
+	display:contents;
+	color: white;
+	background-color: #D5D5D5;
+	border-bottom:none;
+	
+}
+
+nav ul li a:hover{
+	display: block;
+	color: white;
+	background-color: black;
+}
+
+
+nav ul
+{
+	width: auto;
+	height: 100%;
+	margin: 2%;
+	padding: 2%;
+}
+
+ul li a{
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	text-decoration:none;
+	color: black;
+	padding-left: 20px;
+	display: block;
+	border-bottom: 8px solid rgba(0, 0, 0 , .1);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	
+}
+
+.sol_menu
+{
+	font-size: 25px;
+}
+
+.dropbtn {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	text-decoration:none;
+	padding-left: 20px;
+	display: block;
+	border-bottom: 8px solid rgba(0, 0, 0 , .2);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	overflow: 15px;
+}
+
+#boyut_btn
+{
+	width: 100%;
+}
+
+#boyut
+{
+	width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+	font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    text-align:center;
+    min-width: auto;
+    z-index: 1;
+	border-bottom: 8px solid rgba(0, 0, 0 , .2);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	margin-top: 2px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	margin-top: 10px;
+	border-bottom: 8px solid rgba(0, 0, 0 , .2);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+	color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+	color: white;
+}
+
+
+
+
+
+.icerik_resim1
+{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.icerik_resim2
+{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: -5%;
+}
+
+.icerik_resim3
+{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: -5%;
+	margin-left: 50%;
+	float: right;
+	
+}
+
+ .resim_container
+{
+	flex: 1;
+}
+
+.yazi_container
+{
+	flex: 1;
+}
+
+.resim1
+{
+	max-width: auto;
+}
+
+.resim2
+{
+	float: right
+}
+
+.icerik_resim1
+{
+	margin-left: 20%;
+	opacity: 1.7
+}
+
+.icerik_resim2
+{
+	margin-left: 20%;
+	opacity: 1.7
+}
+
+.icerik_resim3
+{
+	margin-left: 24%;
+	opacity: 1.7
+}
+
+footer
+{
+	background-color: #f05c2c;
+	width: 100%;
+	height: 55%;
+	color: white;
+	line-height: 100%;
+	box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+	
+h2
+{
+	margin-top: 25%;
+}
+
+h2 a
+
+{
+	text-decoration:none;
+	color: white;
+}
+.footer_box
+{
+	width: 300px;
+	position:relative;
+	float: left;
+	text-align: center;
+	align-content: center;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+	text-align: center;
+	display:contents;
+	
+}
+
+ul li a{
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	text-decoration:none;
+	color: black;
+	padding-left: 20px;
+	display: block;
+	border-bottom: 8px solid rgba(0, 0, 0 , .1);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
+
+.footer_icon_konum
+{
+	width: auto;
+	position: inherit;
+	float: left;
+	margin-left: 7%;
+	margin-top: 0%;
+}
+
+.footer_menu
+{
+	color: black;
+}
+
+.footer_icon
+{
+	color: black;
+}
+
+.footer_iletisim_icon
+{
+	color: black;
+}
+
+.footer_iletisim
+{
+	width: 10%;
+	position: relative;
+	float: left;
+	margin-left: 7%;
+	margin-top: 0%;;
+}
+
+.footer_kisisel
+{
+	margin-top: 59%;
+	opacity: 0.5;
+}
+
+
+
+nav ul li a:hover{
+	display: block;
+	color: white;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
